@@ -3,7 +3,6 @@
 > TypeScript monorepo · Express · MongoDB Atlas · Redis · BullMQ · ESP32 RFID  
 > Built to demonstrate distributed systems patterns at FAANG engineering depth.
 
-![CI](https://github.com/bimalray/spawn-point-backend/actions/workflows/ci.yml/badge.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue)
 ![Node](https://img.shields.io/badge/Node.js-20_LTS-green)
 ![License](https://img.shields.io/badge/license-Private-red)
