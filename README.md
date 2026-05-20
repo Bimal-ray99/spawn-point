@@ -66,7 +66,7 @@ and a hardware layer (ESP32 RFID readers) talking to the API over HMAC-signed we
 │  └─────────────────────────────┘   └─────────────────┘    │
 └────────────────────────────────────────────────────────────┘
 ```
-
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/186f68a5-a0d8-4964-8114-47269b83a6e9" />
 ---
 
 ## Why These Patterns
@@ -122,6 +122,9 @@ works but events can be lost on crash between DB write and queue enqueue.
 [→ All 10 decisions with context and consequences in ADR.md](docs/ADR.md)
 
 ---
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/58179a97-bee9-4207-833e-ebca7b0de9be" />
+
 
 ## Numbers
 
