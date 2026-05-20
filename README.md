@@ -253,4 +253,4 @@ docker compose -f docker/docker-compose.yml --env-file .env up --build
 # Metrics:    http://localhost:8080/metrics
 # Grafana:    http://localhost:3001  (admin / admin)
 ```
-[LinkedIn](https://www.linkedin.com/in/bimal-ray) · [[Medium articles on the architecture decisions behind this project](https://medium.com/@bimal.ray99/i-built-a-side-project-then-real-users-broke-it-ea7449c59362)]
+[LinkedIn](https://www.linkedin.com/in/bimal-ray) · [Medium articles on the architecture decisions behind this project](https://medium.com/@bimal.ray99/i-built-a-side-project-then-real-users-broke-it-ea7449c59362)
