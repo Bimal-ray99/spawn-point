@@ -252,11 +252,5 @@ docker compose -f docker/docker-compose.yml --env-file .env up --build
 # Health:     http://localhost:8080/api/v1/health
 # Metrics:    http://localhost:8080/metrics
 # Grafana:    http://localhost:3001  (admin / admin)
-```
 
-See [README.md in the backend repo](https://github.com/bimalray/spawn-point-backend) for full setup,
-environment variables, and CI/CD details.
-
----
-
-*Built by Bimal Ray — [LinkedIn](https://linkedin.com/in/bimalray) · [Medium articles on the architecture decisions behind this project](#)*
+*Built by Bimal Ray — [LinkedIn]([https://linkedin.com/in/bimal-ray](https://www.linkedin.com/in/bimal-ray)) · [[Medium articles on the architecture decisions behind this project](https://medium.com/@bimal.ray99/i-built-a-side-project-then-real-users-broke-it-ea7449c59362)]
