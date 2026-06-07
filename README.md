@@ -1,7 +1,6 @@
-# Spawnpoint — Production-Grade Gaming Café Backend
+# Spawnpoint — Production-Grade Gaming Cafe Backend
 
-> TypeScript monorepo · Express · MongoDB Atlas · Redis · BullMQ · ESP32 RFID  
-> Built to demonstrate distributed systems patterns at FAANG engineering depth.
+> TypeScript monorepo · Express · MongoDB Atlas · Redis · BullMQ · ESP32 RFID
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue)
 ![Node](https://img.shields.io/badge/Node.js-20_LTS-green)
@@ -11,14 +10,10 @@
 
 ## What This Is
 
-Spawnpoint is a full-stack backend for a gaming café — real-time session billing, RFID loyalty cards,
-advance bookings, food orders, tournaments, and leaderboards. Built as a portfolio project to demonstrate
-that I can design and implement systems at production quality, not just tutorials.
+Spawnpoint is a full-stack backend for a gaming cafe — real-time session billing, RFID loyalty cards,
+advance bookings, food orders, tournaments, and leaderboards.
 
-**The goal wasn't to build a gaming café app. The goal was to answer:**  
-*"Can you implement what Netflix, Uber, and Stripe do at a system level — and explain every decision?"*
-
-The answer is 37 distributed systems patterns, 34 MongoDB collections, 60+ REST endpoints,
+37 distributed systems patterns, 34 MongoDB collections, 60+ REST endpoints,
 WebSocket real-time events, k6 stress tests that assert correctness (not just speed),
 and a hardware layer (ESP32 RFID readers) talking to the API over HMAC-signed webhooks.
 
@@ -87,7 +82,7 @@ and a hardware layer (ESP32 RFID readers) talking to the API over HMAC-signed we
 | **Double-Entry Ledger** | Worker bug debits wallet without matching credit. Financial inconsistency undetected for weeks. | `wallet.service.ts` |
 | **Optimistic Concurrency** | Admin cancels booking. User extends it simultaneously. Last write wins. Cancelled booking un-cancelled. | `booking.service.ts` |
 | **Change Streams** | Every service called `emitToUser()` directly — business logic coupled to WebSocket infrastructure. | `change-streams.ts` |
-| **HMAC Device Auth** | ESP32 on café LAN can POST to `/cards/scan`. Any device on network can forge scans to unlock doors. | `hmac.middleware.ts` |
+| **HMAC Device Auth** | ESP32 on cafe LAN can POST to `/cards/scan`. Any device on network can forge scans to unlock doors. | `hmac.middleware.ts` |
 
 [→ See all 37 patterns with problem/solution/tradeoff in PATTERNS.md](docs/PATTERNS.md)
 
