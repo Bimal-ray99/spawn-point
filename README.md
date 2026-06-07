@@ -4,7 +4,7 @@
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue)
 ![Node](https://img.shields.io/badge/Node.js-20_LTS-green)
-![License](https://img.shields.io/badge/license-Private-red)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Demo](https://img.shields.io/badge/demo-live-brightgreen)
 
 ---
