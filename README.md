@@ -5,13 +5,14 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue)
 ![Node](https://img.shields.io/badge/Node.js-20_LTS-green)
 ![License](https://img.shields.io/badge/license-Private-red)
+![Demo](https://img.shields.io/badge/demo-live-brightgreen)
 
 ---
 
 ## What This Is
 
-Spawnpoint is a full-stack backend for a gaming cafe — real-time session billing, RFID loyalty cards,
-advance bookings, food orders, tournaments, and leaderboards.
+Spawnpoint is a production-grade backend for gaming cafe, real-time session billing, RFID loyalty cards, advance 
+bookings, food orders, tournaments, and leaderboards.
 
 37 distributed systems patterns, 34 MongoDB collections, 60+ REST endpoints,
 WebSocket real-time events, k6 stress tests that assert correctness (not just speed),
