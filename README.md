@@ -14,7 +14,7 @@
 Spawnpoint is a production-grade backend for gaming cafe, real-time session billing, RFID loyalty cards, advance 
 bookings, food orders, tournaments, and leaderboards.
 
-37 distributed systems patterns, 34 MongoDB collections, 60+ REST endpoints,
+14 distributed systems patterns, 34 MongoDB collections, 60+ REST endpoints,
 WebSocket real-time events, k6 stress tests that assert correctness (not just speed),
 and a hardware layer (ESP32 RFID readers) talking to the API over HMAC-signed webhooks.
 
@@ -85,7 +85,7 @@ and a hardware layer (ESP32 RFID readers) talking to the API over HMAC-signed we
 | **Change Streams** | Every service called `emitToUser()` directly — business logic coupled to WebSocket infrastructure. | `change-streams.ts` |
 | **HMAC Device Auth** | ESP32 on cafe LAN can POST to `/cards/scan`. Any device on network can forge scans to unlock doors. | `hmac.middleware.ts` |
 
-[→ See all 37 patterns with problem/solution/tradeoff in PATTERNS.md](docs/PATTERNS.md)
+[→ See all 14 patterns with problem/solution/tradeoff in PATTERNS.md](docs/PATTERNS.md)
 
 ---
 
@@ -130,7 +130,7 @@ works but events can be lost on crash between DB write and queue enqueue.
 | WebSocket events | 6 |
 | MongoDB collections | 34 |
 | Redis key patterns | 14 |
-| Distributed systems patterns | 37 |
+| Distributed systems patterns | 14 |
 | BullMQ queues | 5 + DLQ |
 | Cron jobs | 7 |
 | Middleware layers per request | 8 |
