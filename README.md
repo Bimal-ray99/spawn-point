@@ -1,4 +1,6 @@
-# Spawnpoint — Production-Grade Gaming Cafe Backend
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0a2096b8-f1fc-4085-a29f-020a6694be3e" />
+
+# Spawnpoint - Production-Grade Gaming Cafe Backend
 
 > TypeScript monorepo · Express · MongoDB Atlas · Redis · BullMQ · ESP32 RFID
 
